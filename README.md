@@ -1,7 +1,7 @@
 # Data Structures In C programming Language 
 
 Data structures are used to store data in a computer in an organized form.
-In C Programming Language Different types of data structures are; Array, Stack, Queue, Linked List, Tree. In term of computer programming language, a data structure may be selected or designed to store data for the purpose of working on it with various algorithms
+In C Programming Language Different types of data structures are; Array, Stack, Queue, Linked List, Tree. In term of computer programming language, a data structure may be selected or designed to store data for the purpose of working on it with various algorithms.
 
 Data Structure in C Programming Language is a specialized format for organizing and storing data.
 In General data structure types include the file, array, record, table, tree.. etc.
