@@ -13,6 +13,6 @@ Stack work on the basis of Last-In-First-Out (LIFO). Last entered element remove
 # Queue:
 Queue work on the basis of First-In-First-Out (FIFO). First entered element removed first.
 # Linked List:
-Linked list is the collection of nodes, Here you can insert and delete data in any order.
+Linked list is the collection of nodes. Here you can insert and delete data in any order.
 # Tree:
 Stores data in a non linear form with one root node and sub nodes.
