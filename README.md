@@ -6,7 +6,6 @@ In C Programming Language Different types of data structures are:
 * Stack
 * Queue 
 * Linked Lists
-* Trees
 
 In terms of computer programming language, a data structure may be selected or designed to store data for the purpose of working on it with various algorithms.
 
@@ -21,5 +20,3 @@ Stack work on the basis of Last-In-First-Out (LIFO). Last entered element will b
 Queue work on the basis of First-In-First-Out (FIFO). First entered element will be removed first.
 # Linked List:
 Linked list is the collection of nodes. Here you can insert and delete data in any order.
-# Tree:
-Stores data in a non linear form with one root node and sub nodes.
