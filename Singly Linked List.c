@@ -4,11 +4,13 @@
 #include<string.h>
 struct node *front=NULL;
 struct node *rear=NULL;
+//initialise node 
 struct node
 {
 	int key;
 	struct node *addr;
 };
+// insert an element at the beginning
 void ins_at_beg(int k)
 {
 	struct node *temp;
@@ -27,6 +29,7 @@ void ins_at_beg(int k)
 		
 	}
 }
+//insert an element at the end
 void ins_at_end(int k)
 {
 	struct node *temp;
@@ -45,6 +48,7 @@ void ins_at_end(int k)
 	rear=temp;
 	}
 }
+//insert the element at a particular position
 void ins_at_pos(int k,int pos)
 {
 	struct node *temp;
@@ -68,6 +72,7 @@ void ins_at_pos(int k,int pos)
 		temp->key=k;
 	}
 }
+//delete at beginning
 void del_at_beg()
 {
 	if(front==NULL)
@@ -88,6 +93,7 @@ void del_at_beg()
 	 front=a;
 	}
 }
+//delete at end
 void del_at_end()
 {
 	if(front==NULL)
@@ -112,6 +118,7 @@ void del_at_end()
 		rear=a;
 	}
 }
+//delete at a particular position
 void del_at_pos(int pos)
 {
 	if(front==NULL)
@@ -139,6 +146,7 @@ void del_at_pos(int pos)
 		free(temp);
 	}
 }
+//printing the list
 void print()
 {
 	if(front==NULL)
@@ -214,8 +222,8 @@ void main()
 		   default : printf("Error!!");
 		}
 		
-     } 
+     	} 
      
-	}
+}
 
 
