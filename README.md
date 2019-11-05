@@ -15,8 +15,8 @@ General data structure types include the file, array, record, table, tree.. etc.
 # Array: 
 Array is collection of similar data type, you can insert and delete an element from array without following any specific order.
 # Stack:
-Stack work on the basis of Last-In-First-Out (LIFO). Last entered element will be removed first.
+Stack works on the basis of Last-In-First-Out (LIFO). Last entered element will be removed first.
 # Queue:
-Queue work on the basis of First-In-First-Out (FIFO). First entered element will be removed first.
+Queue works on the basis of First-In-First-Out (FIFO). First entered element will be removed first.
 # Linked List:
 Linked list is the collection of nodes. Here you can insert and delete data in any order.
